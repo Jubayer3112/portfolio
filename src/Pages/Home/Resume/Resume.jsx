@@ -3,7 +3,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 const Resume = () => {
   return (
-    <div>
+    <div id="resume" className="bg-base-200 py-20">
         
       <div className="container mx-auto">
         <div>
@@ -11,15 +11,12 @@ const Resume = () => {
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                 <span className="text-primary mb-2 block text-lg font-semibold">
-                  Our Portfolio
+                  My Resume
                 </span>
                 <h2 className="text-dark mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
-                  Our Recent Projects
+                  Explore My Resume
                 </h2>
-                <p className="text-body-color text-base dark:text-dark-6">
-                  There are many variations of passages of Lorem Ipsum available
-                  but the majority have suffered alteration in some form.
-                </p>
+               
               </div>
             </div>
           </div>

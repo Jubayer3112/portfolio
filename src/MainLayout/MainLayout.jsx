@@ -1,6 +1,7 @@
 import About from "../Pages/Home/About/About";
 import Banner from "../Pages/Home/Banner/BAnner";
 import Contact from "../Pages/Home/Contact/Contact";
+import Footer from "../Pages/Home/Footer/Footer";
 import Portfolio from "../Pages/Home/Portfolio/Portfolio";
 import Resume from "../Pages/Home/Resume/Resume";
 import Services from "../Pages/Home/Services/Services";
@@ -16,6 +17,7 @@ const MainLayout = () => {
       <Portfolio />
       <Resume />
       <Contact />
+      <Footer />
     </div>
   );
 };

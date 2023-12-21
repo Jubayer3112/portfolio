@@ -2,24 +2,24 @@ const Navbar = () => {
   const navigation = (
     <>
       <li>
-        <a>Home</a>
+        <a href="#">Home</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a>Resume</a>
+        <a href="#resume">Resume</a>
       </li>
       <li>
-        <a>Services</a>
+        <a href="#services">Services</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a href="#hire">Contact</a>
       </li>
     </>
   );
   return (
-    <div>
+    <div className="sticky start-0 top-0 z-20 bg-white">
       <div className="container mx-auto">
         <div className="navbar bg-base-100">
           <div className="navbar-start">
@@ -54,12 +54,12 @@ const Navbar = () => {
             <a className="text-3xl">Jubayer Hossain</a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-xl">
-                {navigation}
-            </ul>
+            <ul className="menu menu-horizontal px-1 text-xl">{navigation}</ul>
           </div>
           <div className="navbar-end">
-            <a className="py-2 px-10 bg-[#363062] text-white uppercase text-md">Hire Me!</a>
+            <a href="#hire" className="py-2 px-10 bg-[#363062] text-white uppercase text-md">
+              Hire Me!
+            </a>
           </div>
         </div>
       </div>
